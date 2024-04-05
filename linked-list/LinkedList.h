@@ -10,7 +10,7 @@ class LinkedList
 {
 private:
     typedef T data_type;
-    typedef T* type_ptr;
+    typedef T* data_ptr;
     typedef Node<T> node_type;
 
 private:
@@ -43,7 +43,7 @@ protected:
     }
 
 public:
-    void Add(type_ptr Data) {
+    void Add(data_ptr Data) {
         node_type* newNode = new node_type(Data);
         node_type* last = Tail->GetPrevNode();
         Tail->SetPrevNode(newNode);
@@ -54,7 +54,7 @@ public:
         ++Count;
     }
 
-    type_ptr Get(unsigned int Index)
+    data_ptr Get(unsigned int Index)
     {
         if (Index > Count)
             throw std::exception("Index out of bounds");

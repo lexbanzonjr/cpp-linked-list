@@ -17,8 +17,8 @@ private:
 public:
     Node(ptr_type AData)
         : Data(AData),
-        NextNode(nullptr),
-        PrevNode(nullptr)
+          NextNode(nullptr),
+          PrevNode(nullptr)
     {
     }
 

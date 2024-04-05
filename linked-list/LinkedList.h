@@ -21,8 +21,8 @@ private:
 protected:
     LinkedList()
         : Head(new node_type(new data_type())),
-        Tail(new node_type(new data_type())),
-        Count(0)
+          Tail(new node_type(new data_type())),
+          Count(0)
     {
         Head->SetNextNode(Tail);
         Tail->SetPrevNode(Head);

@@ -18,7 +18,7 @@ private:
     node_type* Tail;
     unsigned int Count;
 
-protected:
+public:
     LinkedList()
         : Head(new node_type(new data_type())),
           Tail(new node_type(new data_type())),
@@ -42,7 +42,6 @@ protected:
         }
     }
 
-public:
     void Add(data_ptr Data) {
         node_type* newNode = new node_type(Data);
         node_type* last = Tail->GetPrevNode();

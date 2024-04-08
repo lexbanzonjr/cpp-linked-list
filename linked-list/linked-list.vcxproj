@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AppList.cpp" />
-    <ClCompile Include="linked-list.cpp" />
-    <ClCompile Include="App.cpp" />
+    <ClCompile Include="source\AppList.cpp" />
+    <ClCompile Include="source\linked-list.cpp" />
+    <ClCompile Include="source\App.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h" />
-    <ClInclude Include="AppList.h" />
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="Node.h" />
+    <ClInclude Include="source\App.h" />
+    <ClInclude Include="source\AppList.h" />
+    <ClInclude Include="source\LinkedList.h" />
+    <ClInclude Include="source\Node.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

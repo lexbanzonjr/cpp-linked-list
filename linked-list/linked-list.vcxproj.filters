@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="linked-list.cpp">
+    <ClCompile Include="source\linked-list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="App.cpp">
+    <ClCompile Include="source\App.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AppList.cpp">
+    <ClCompile Include="source\AppList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h">
+    <ClInclude Include="source\Node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LinkedList.h">
+    <ClInclude Include="source\LinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AppList.h">
+    <ClInclude Include="source\AppList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="App.h">
+    <ClInclude Include="source\App.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
